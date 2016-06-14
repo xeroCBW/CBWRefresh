@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
   s.summary      = 'A custom Refresh'
 
   s.platform     =  :ios, '7.0'
-s.source       =  {:git => 'https://github.com/xeroxmx/CBWRefresh.git',:tag => s.version}
+  s.source       =  {:git => 'https://github.com/xeroxmx/CBWRefresh.git',:tag => s.version}
   s.source_files = 'CBWRefresh/**/*.{h,m}'
-  s.frameworks   =  'CBWRefresh/MJRefresh.bundle'
+
   s.requires_arc = true
   
 # Pod Dependencies
