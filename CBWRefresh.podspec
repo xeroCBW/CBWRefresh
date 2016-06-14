@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'CBWRefreshDemo'
+  s.name         = 'CBWRefresh'
   s.version      = '0.0.1'
   s.license      = 'MIT'
   s.homepage     = 'https://github.com/xeroxmx/CBWRefresh'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     =  :ios, '7.0'
   s.source       =  {:git => 'https://github.com/xeroxmx/CBWRefresh.git',:tag => s.version}
   s.source_files = 'CBWRefresh/**/*.{h,m}'
-
+  s.resource     = 'CBWRefresh/CBWRefresh.bundle'
   s.requires_arc = true
   
 # Pod Dependencies
