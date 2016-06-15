@@ -28,7 +28,7 @@
     
     self.label.frame = self.bounds;
         
-    float centerX = self.width * 0.5 - 100;
+    float centerX = self.width * 0.5 - 80;
     float centerY = self.height * 0.5;
     
     self.arrowView.center = CGPointMake(centerX, centerY);
