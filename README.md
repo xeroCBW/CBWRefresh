@@ -1,7 +1,7 @@
 # CBWRefresh
 CBWRefreshDemo自己写的 refresh
 
-
+目前支持:contensize 大于 frame 的情款
 ####install
 1. 使用 pod 'CBWRefresh'
 2. 直接拖 CBWRefresh 文件夹
