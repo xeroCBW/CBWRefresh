@@ -29,7 +29,7 @@
     
     self.navigationItem.title = @"CBWRefresh";
     
-    self.tableView.rowHeight = 20;
+    self.tableView.rowHeight = 100;
     self.count = 1;
     self.topIndex = 1;
     self.bottomIndex = 1;
@@ -63,6 +63,7 @@
         [self.tableView reloadData];
         [self.tableView.header endRefresh];
         
+          
         //重置没有数据
 //        [self resetNoMoreData];
         
