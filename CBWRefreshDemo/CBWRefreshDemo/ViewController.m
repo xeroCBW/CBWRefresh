@@ -34,14 +34,13 @@
     self.topIndex = 1;
     self.bottomIndex = 1;
     
-    NSString *str =  @"989898";
-    [self.array addObject:str];
-    
     [self CBWHeaderRefresh];
     
     [self CBWFooterRefresh];
 
 }
+
+
 
 #pragma mark - CBWRefresh
 #pragma mark - 上拉刷新
