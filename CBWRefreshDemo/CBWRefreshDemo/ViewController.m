@@ -37,6 +37,7 @@
     
     [self CBWFooterRefresh];
 
+    self.tableView.tableFooterView = [[UIView alloc]init];
 }
 
 

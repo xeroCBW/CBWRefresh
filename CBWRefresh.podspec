@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'CBWRefresh'
-  s.version      = '0.0.4'
+  s.version      = '0.0.5'
   s.license      = 'MIT'
   s.homepage     = 'https://github.com/xeroxmx/CBWRefresh'
   s.authors      = {'codeChenBW'=>'861754186@qq.com'}
