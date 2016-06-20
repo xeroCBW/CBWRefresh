@@ -134,6 +134,9 @@
  
     //bu 知道为什么是 str
     NSDate *lastUpdatedTime = [[NSUserDefaults standardUserDefaults] objectForKey:CBWRefreshHeaderTimeKey];
+    
+    
+    
     if ([lastUpdatedTime isKindOfClass:[NSString class]]) {return;}
     
     if (lastUpdatedTime) {

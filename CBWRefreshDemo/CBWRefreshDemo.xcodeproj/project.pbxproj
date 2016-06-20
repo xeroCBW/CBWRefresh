@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0B6754A1D101197003BAFAF /* CBWFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B675351D101197003BAFAF /* CBWFooter.m */; };
-		D0B6754B1D101197003BAFAF /* CBWHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B675371D101197003BAFAF /* CBWHeader.m */; };
-		D0B6754C1D101197003BAFAF /* CBWrefreshComponet.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B675391D101197003BAFAF /* CBWrefreshComponet.m */; };
-		D0B6754D1D101197003BAFAF /* CBWRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D0B6753B1D101197003BAFAF /* CBWRefresh.bundle */; };
-		D0B6754E1D101197003BAFAF /* CBWRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B6753E1D101197003BAFAF /* CBWRefreshConst.m */; };
-		D0B6754F1D101197003BAFAF /* CBWActivityViewFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B675411D101197003BAFAF /* CBWActivityViewFooter.m */; };
-		D0B675501D101197003BAFAF /* CBWActivityViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B675431D101197003BAFAF /* CBWActivityViewHeader.m */; };
-		D0B675511D101197003BAFAF /* UIScrollView+CBWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B675451D101197003BAFAF /* UIScrollView+CBWFrame.m */; };
-		D0B675521D101197003BAFAF /* UIScrollView+CBWRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B675471D101197003BAFAF /* UIScrollView+CBWRefresh.m */; };
-		D0B675531D101197003BAFAF /* UIView+CBWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B675491D101197003BAFAF /* UIView+CBWFrame.m */; };
+		D0D10A681D17BC690098772A /* CBWFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D10A541D17BC690098772A /* CBWFooter.m */; };
+		D0D10A691D17BC690098772A /* CBWHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D10A561D17BC690098772A /* CBWHeader.m */; };
+		D0D10A6A1D17BC690098772A /* CBWrefreshComponet.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D10A581D17BC690098772A /* CBWrefreshComponet.m */; };
+		D0D10A6B1D17BC690098772A /* CBWRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D0D10A591D17BC690098772A /* CBWRefresh.bundle */; };
+		D0D10A6C1D17BC690098772A /* CBWRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D10A5C1D17BC690098772A /* CBWRefreshConst.m */; };
+		D0D10A6D1D17BC690098772A /* CBWActivityViewFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D10A5F1D17BC690098772A /* CBWActivityViewFooter.m */; };
+		D0D10A6E1D17BC690098772A /* CBWActivityViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D10A611D17BC690098772A /* CBWActivityViewHeader.m */; };
+		D0D10A6F1D17BC690098772A /* UIScrollView+CBWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D10A631D17BC690098772A /* UIScrollView+CBWFrame.m */; };
+		D0D10A701D17BC690098772A /* UIScrollView+CBWRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D10A651D17BC690098772A /* UIScrollView+CBWRefresh.m */; };
+		D0D10A711D17BC690098772A /* UIView+CBWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D10A671D17BC690098772A /* UIView+CBWFrame.m */; };
 		D0D4C7DA1D1006190085D40B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D4C7D91D1006190085D40B /* main.m */; };
 		D0D4C7DD1D1006190085D40B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D4C7DC1D1006190085D40B /* AppDelegate.m */; };
 		D0D4C7E01D1006190085D40B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D4C7DF1D1006190085D40B /* ViewController.m */; };
@@ -26,26 +26,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D0B675341D101197003BAFAF /* CBWFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWFooter.h; sourceTree = "<group>"; };
-		D0B675351D101197003BAFAF /* CBWFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWFooter.m; sourceTree = "<group>"; };
-		D0B675361D101197003BAFAF /* CBWHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWHeader.h; sourceTree = "<group>"; };
-		D0B675371D101197003BAFAF /* CBWHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWHeader.m; sourceTree = "<group>"; };
-		D0B675381D101197003BAFAF /* CBWrefreshComponet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWrefreshComponet.h; sourceTree = "<group>"; };
-		D0B675391D101197003BAFAF /* CBWrefreshComponet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWrefreshComponet.m; sourceTree = "<group>"; };
-		D0B6753B1D101197003BAFAF /* CBWRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CBWRefresh.bundle; sourceTree = "<group>"; };
-		D0B6753C1D101197003BAFAF /* CBWRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWRefresh.h; sourceTree = "<group>"; };
-		D0B6753D1D101197003BAFAF /* CBWRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWRefreshConst.h; sourceTree = "<group>"; };
-		D0B6753E1D101197003BAFAF /* CBWRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWRefreshConst.m; sourceTree = "<group>"; };
-		D0B675401D101197003BAFAF /* CBWActivityViewFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWActivityViewFooter.h; sourceTree = "<group>"; };
-		D0B675411D101197003BAFAF /* CBWActivityViewFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWActivityViewFooter.m; sourceTree = "<group>"; };
-		D0B675421D101197003BAFAF /* CBWActivityViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWActivityViewHeader.h; sourceTree = "<group>"; };
-		D0B675431D101197003BAFAF /* CBWActivityViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWActivityViewHeader.m; sourceTree = "<group>"; };
-		D0B675441D101197003BAFAF /* UIScrollView+CBWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CBWFrame.h"; sourceTree = "<group>"; };
-		D0B675451D101197003BAFAF /* UIScrollView+CBWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CBWFrame.m"; sourceTree = "<group>"; };
-		D0B675461D101197003BAFAF /* UIScrollView+CBWRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CBWRefresh.h"; sourceTree = "<group>"; };
-		D0B675471D101197003BAFAF /* UIScrollView+CBWRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CBWRefresh.m"; sourceTree = "<group>"; };
-		D0B675481D101197003BAFAF /* UIView+CBWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CBWFrame.h"; sourceTree = "<group>"; };
-		D0B675491D101197003BAFAF /* UIView+CBWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CBWFrame.m"; sourceTree = "<group>"; };
+		D0D10A531D17BC690098772A /* CBWFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWFooter.h; sourceTree = "<group>"; };
+		D0D10A541D17BC690098772A /* CBWFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWFooter.m; sourceTree = "<group>"; };
+		D0D10A551D17BC690098772A /* CBWHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWHeader.h; sourceTree = "<group>"; };
+		D0D10A561D17BC690098772A /* CBWHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWHeader.m; sourceTree = "<group>"; };
+		D0D10A571D17BC690098772A /* CBWrefreshComponet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWrefreshComponet.h; sourceTree = "<group>"; };
+		D0D10A581D17BC690098772A /* CBWrefreshComponet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWrefreshComponet.m; sourceTree = "<group>"; };
+		D0D10A591D17BC690098772A /* CBWRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CBWRefresh.bundle; sourceTree = "<group>"; };
+		D0D10A5A1D17BC690098772A /* CBWRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWRefresh.h; sourceTree = "<group>"; };
+		D0D10A5B1D17BC690098772A /* CBWRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWRefreshConst.h; sourceTree = "<group>"; };
+		D0D10A5C1D17BC690098772A /* CBWRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWRefreshConst.m; sourceTree = "<group>"; };
+		D0D10A5E1D17BC690098772A /* CBWActivityViewFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWActivityViewFooter.h; sourceTree = "<group>"; };
+		D0D10A5F1D17BC690098772A /* CBWActivityViewFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWActivityViewFooter.m; sourceTree = "<group>"; };
+		D0D10A601D17BC690098772A /* CBWActivityViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWActivityViewHeader.h; sourceTree = "<group>"; };
+		D0D10A611D17BC690098772A /* CBWActivityViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWActivityViewHeader.m; sourceTree = "<group>"; };
+		D0D10A621D17BC690098772A /* UIScrollView+CBWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CBWFrame.h"; sourceTree = "<group>"; };
+		D0D10A631D17BC690098772A /* UIScrollView+CBWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CBWFrame.m"; sourceTree = "<group>"; };
+		D0D10A641D17BC690098772A /* UIScrollView+CBWRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CBWRefresh.h"; sourceTree = "<group>"; };
+		D0D10A651D17BC690098772A /* UIScrollView+CBWRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CBWRefresh.m"; sourceTree = "<group>"; };
+		D0D10A661D17BC690098772A /* UIView+CBWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CBWFrame.h"; sourceTree = "<group>"; };
+		D0D10A671D17BC690098772A /* UIView+CBWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CBWFrame.m"; sourceTree = "<group>"; };
 		D0D4C7D51D1006180085D40B /* CBWRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBWRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D4C7D91D1006190085D40B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0D4C7DB1D1006190085D40B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,53 +69,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D0B675321D101197003BAFAF /* CBWRefresh */ = {
+		D0D10A511D17BC690098772A /* CBWRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				D0B675331D101197003BAFAF /* Base */,
-				D0B6753A1D101197003BAFAF /* Bundle */,
-				D0B6753B1D101197003BAFAF /* CBWRefresh.bundle */,
-				D0B6753C1D101197003BAFAF /* CBWRefresh.h */,
-				D0B6753D1D101197003BAFAF /* CBWRefreshConst.h */,
-				D0B6753E1D101197003BAFAF /* CBWRefreshConst.m */,
-				D0B6753F1D101197003BAFAF /* Custom */,
-				D0B675441D101197003BAFAF /* UIScrollView+CBWFrame.h */,
-				D0B675451D101197003BAFAF /* UIScrollView+CBWFrame.m */,
-				D0B675461D101197003BAFAF /* UIScrollView+CBWRefresh.h */,
-				D0B675471D101197003BAFAF /* UIScrollView+CBWRefresh.m */,
-				D0B675481D101197003BAFAF /* UIView+CBWFrame.h */,
-				D0B675491D101197003BAFAF /* UIView+CBWFrame.m */,
+				D0D10A521D17BC690098772A /* Base */,
+				D0D10A591D17BC690098772A /* CBWRefresh.bundle */,
+				D0D10A5A1D17BC690098772A /* CBWRefresh.h */,
+				D0D10A5B1D17BC690098772A /* CBWRefreshConst.h */,
+				D0D10A5C1D17BC690098772A /* CBWRefreshConst.m */,
+				D0D10A5D1D17BC690098772A /* Custom */,
+				D0D10A621D17BC690098772A /* UIScrollView+CBWFrame.h */,
+				D0D10A631D17BC690098772A /* UIScrollView+CBWFrame.m */,
+				D0D10A641D17BC690098772A /* UIScrollView+CBWRefresh.h */,
+				D0D10A651D17BC690098772A /* UIScrollView+CBWRefresh.m */,
+				D0D10A661D17BC690098772A /* UIView+CBWFrame.h */,
+				D0D10A671D17BC690098772A /* UIView+CBWFrame.m */,
 			);
-			path = CBWRefresh;
+			name = CBWRefresh;
+			path = ../CBWRefresh;
 			sourceTree = "<group>";
 		};
-		D0B675331D101197003BAFAF /* Base */ = {
+		D0D10A521D17BC690098772A /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				D0B675341D101197003BAFAF /* CBWFooter.h */,
-				D0B675351D101197003BAFAF /* CBWFooter.m */,
-				D0B675361D101197003BAFAF /* CBWHeader.h */,
-				D0B675371D101197003BAFAF /* CBWHeader.m */,
-				D0B675381D101197003BAFAF /* CBWrefreshComponet.h */,
-				D0B675391D101197003BAFAF /* CBWrefreshComponet.m */,
+				D0D10A531D17BC690098772A /* CBWFooter.h */,
+				D0D10A541D17BC690098772A /* CBWFooter.m */,
+				D0D10A551D17BC690098772A /* CBWHeader.h */,
+				D0D10A561D17BC690098772A /* CBWHeader.m */,
+				D0D10A571D17BC690098772A /* CBWrefreshComponet.h */,
+				D0D10A581D17BC690098772A /* CBWrefreshComponet.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		D0B6753A1D101197003BAFAF /* Bundle */ = {
+		D0D10A5D1D17BC690098772A /* Custom */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Bundle;
-			sourceTree = "<group>";
-		};
-		D0B6753F1D101197003BAFAF /* Custom */ = {
-			isa = PBXGroup;
-			children = (
-				D0B675401D101197003BAFAF /* CBWActivityViewFooter.h */,
-				D0B675411D101197003BAFAF /* CBWActivityViewFooter.m */,
-				D0B675421D101197003BAFAF /* CBWActivityViewHeader.h */,
-				D0B675431D101197003BAFAF /* CBWActivityViewHeader.m */,
+				D0D10A5E1D17BC690098772A /* CBWActivityViewFooter.h */,
+				D0D10A5F1D17BC690098772A /* CBWActivityViewFooter.m */,
+				D0D10A601D17BC690098772A /* CBWActivityViewHeader.h */,
+				D0D10A611D17BC690098772A /* CBWActivityViewHeader.m */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -123,7 +116,7 @@
 		D0D4C7CC1D1006180085D40B = {
 			isa = PBXGroup;
 			children = (
-				D0B675321D101197003BAFAF /* CBWRefresh */,
+				D0D10A511D17BC690098772A /* CBWRefresh */,
 				D0D4C7D71D1006190085D40B /* CBWRefreshDemo */,
 				D0D4C7D61D1006180085D40B /* Products */,
 			);
@@ -218,7 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B6754D1D101197003BAFAF /* CBWRefresh.bundle in Resources */,
+				D0D10A6B1D17BC690098772A /* CBWRefresh.bundle in Resources */,
 				D0D4C7E81D1006190085D40B /* LaunchScreen.storyboard in Resources */,
 				D0D4C7E51D1006190085D40B /* Assets.xcassets in Resources */,
 				D0D4C7E31D1006190085D40B /* Main.storyboard in Resources */,
@@ -233,16 +226,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D4C7E01D1006190085D40B /* ViewController.m in Sources */,
-				D0B675501D101197003BAFAF /* CBWActivityViewHeader.m in Sources */,
-				D0B6754A1D101197003BAFAF /* CBWFooter.m in Sources */,
-				D0B675531D101197003BAFAF /* UIView+CBWFrame.m in Sources */,
-				D0B6754B1D101197003BAFAF /* CBWHeader.m in Sources */,
-				D0B6754C1D101197003BAFAF /* CBWrefreshComponet.m in Sources */,
-				D0B675521D101197003BAFAF /* UIScrollView+CBWRefresh.m in Sources */,
-				D0B6754E1D101197003BAFAF /* CBWRefreshConst.m in Sources */,
-				D0B6754F1D101197003BAFAF /* CBWActivityViewFooter.m in Sources */,
+				D0D10A6E1D17BC690098772A /* CBWActivityViewHeader.m in Sources */,
+				D0D10A681D17BC690098772A /* CBWFooter.m in Sources */,
+				D0D10A711D17BC690098772A /* UIView+CBWFrame.m in Sources */,
+				D0D10A691D17BC690098772A /* CBWHeader.m in Sources */,
+				D0D10A6A1D17BC690098772A /* CBWrefreshComponet.m in Sources */,
+				D0D10A701D17BC690098772A /* UIScrollView+CBWRefresh.m in Sources */,
+				D0D10A6C1D17BC690098772A /* CBWRefreshConst.m in Sources */,
+				D0D10A6D1D17BC690098772A /* CBWActivityViewFooter.m in Sources */,
 				D0D4C7DD1D1006190085D40B /* AppDelegate.m in Sources */,
-				D0B675511D101197003BAFAF /* UIScrollView+CBWFrame.m in Sources */,
+				D0D10A6F1D17BC690098772A /* UIScrollView+CBWFrame.m in Sources */,
 				D0D4C7DA1D1006190085D40B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

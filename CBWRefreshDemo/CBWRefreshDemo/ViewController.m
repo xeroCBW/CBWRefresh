@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-
 #import "CBWRefresh.h"
 
 @interface ViewController ()
@@ -29,7 +28,7 @@
     
     self.navigationItem.title = @"CBWRefresh";
     
-    self.tableView.rowHeight = 100;
+    self.tableView.rowHeight = 20;
     self.count = 1;
     self.topIndex = 1;
     self.bottomIndex = 1;

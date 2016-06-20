@@ -72,13 +72,24 @@
     if (self.state == CBWRefreshStateNoMoreData) {return;}
    
     //这里要考虑 contentsize小于 scrollView 的frame情款的时候的情况,
+    //就不能使用 height
     if (self.scrollView.contentH < self.scrollView.height) {
-        self.state = CBWRefreshStateIdle;
+
+        if (self.scrollView.contentOffset.y > - self.scrollView.insetT + self.height) {
+            //距离超过了
+           
+            self.state = CBWRefreshStatePulling;
+        }else{
+            //距离超过了
+            self.state = CBWRefreshStateIdle;
+        }
         return;
-    }
+        
+        }
     
     if (self.scrollView.contentOffset.y > self.scrollView.contentH - self.scrollView.height + self.height + self.scrollView.insetB) {
         //距离超过了
+        NSLog(@"%f,%f",self.scrollView.contentOffset.y,self.scrollView.contentH - self.scrollView.height + self.height + self.scrollView.insetB);
         self.state = CBWRefreshStatePulling;
     }else{
         //距离超过了
@@ -90,9 +101,11 @@
 {
  
     [super scrollViewContentSizeDidChange:change];
-     self.hidden = self.y > 0 ? NO:YES;
+//     self.hidden = self.y > 0 ? NO:YES;
     // 设置 footer位置
-    self.y = self.scrollView.contentH;
+//    NSLog(@"self.scrollView.contentH%f====self.scrollView.height%f",self.scrollView.contentH, self.scrollView.height);
+    self.y = MAX(self.scrollView.contentH, self.scrollView.height - self.scrollView.contentInset.top - self.scrollView.contentInset.bottom);
+//    self.y = self.scrollView.contentH;
 //    NSLog(@"scrollViewContentSizeDidChange%f",self.y);
    
 };
@@ -104,6 +117,33 @@
     if (self.state == CBWRefreshStateRefreshing) {return;}
     //发现没有更多数据直接返回
     if (self.state == CBWRefreshStateNoMoreData) {return;}
+    
+    //这里要考虑 contentsize小于 scrollView 的frame情款的时候的情况,
+    //就不能使用 height
+    if (self.scrollView.contentH < self.scrollView.height) {
+        
+        
+        if (self.scrollView.contentH < self.scrollView.height) {
+            
+            if (self.scrollView.contentOffset.y > - self.scrollView.insetT + self.height) {
+                //距离超过了
+                [UIView animateWithDuration:0.25f animations:^{
+                    self.scrollView.insetB += self.height;
+                } completion:^(BOOL finished) {
+                    //调用刷新的方法
+                    
+                    [self executeRefreshingCallback];
+                }];
+                
+                //设置状态为正在刷新
+                self.state = CBWRefreshStateRefreshing;
+                
+            }
+            
+        }
+          return;
+    }
+
     
     //手势停止之后做的修改
     if (self.scrollView.contentOffset.y > self.scrollView.contentH - self.scrollView.height+ self.height + self.scrollView.insetB) {
