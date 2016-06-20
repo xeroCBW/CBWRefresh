@@ -29,7 +29,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.state = CBWRefreshStateIdle;
-//        self.backgroundColor = [UIColor greenColor];
+        self.backgroundColor = [UIColor greenColor];
         [self prepare];
     }
     return self;
